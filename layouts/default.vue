@@ -50,6 +50,7 @@ export default {
 <style>
 .v-main {
   background-color: #4d4d4d !important;
+  min-height: 100vh;
 }
 .toolbar {
   font-family: Arial, Helvetica, sans-serif !important;
