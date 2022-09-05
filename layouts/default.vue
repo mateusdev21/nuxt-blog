@@ -15,7 +15,6 @@
           <v-icon dark class="mr-0">{{ item.icon }}</v-icon>
           <p>&nbsp;{{ item.title }}</p>
         </v-btn>
-        <!-- <v-btn text> List </v-btn> -->
       </v-toolbar-items>
     </v-toolbar>
     <v-main>
