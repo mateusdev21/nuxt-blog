@@ -18,7 +18,7 @@
       </v-toolbar-items>
     </v-toolbar>
     <v-main>
-      <v-container>
+      <v-container class="main-container">
         <Nuxt />
       </v-container>
     </v-main>
@@ -48,6 +48,9 @@ export default {
 </script>
 
 <style>
+.v-main {
+  background-color: #4d4d4d !important;
+}
 .toolbar {
   font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -60,5 +63,10 @@ export default {
   font-weight: 500 !important;
   padding: 15px !important;
   box-shadow: none !important;
+}
+.main-container {
+  margin: 0px !important;
+  padding: 2vh 5vw !important;
+  min-width: 100vw;
 }
 </style>

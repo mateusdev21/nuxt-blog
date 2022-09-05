@@ -3,7 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - nuxt-blog',
+    titleTemplate: 'Nuxt Blog - %s',
     title: 'Home',
     htmlAttrs: {
       lang: 'en',
@@ -39,6 +39,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/dotenv',
+    '@nuxtjs/date-fns'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
