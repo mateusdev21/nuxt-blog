@@ -90,7 +90,7 @@ export default {
       // }
     },
     readArticle(title) {
-      this.$router.push(`article?q=${title}`)
+      this.$router.push(`article-page?q=${title}`)
     },
   },
 }
